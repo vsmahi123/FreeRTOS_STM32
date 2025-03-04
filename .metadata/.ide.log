@@ -1051,3 +1051,69 @@
 2025-03-04 23:26:13,536 [INFO] ApiDb:447 - User favorites MCUs=[]
 2025-03-04 23:26:13,536 [INFO] ApiDb:443 - Save user favorites file C:\Users\vsmahi/.stm32cubeide/favorites.boards.txt: 0 item(s)
 2025-03-04 23:26:13,537 [INFO] ApiDb:447 - User favorites Boards=[]
+2025-03-05 00:13:04,917 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 768306576 Bytes (1073741824)
+2025-03-05 00:13:05,949 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 788229408 Bytes (1073741824)
+2025-03-05 00:13:08,825 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 911815320 Bytes (1073741824)
+2025-03-05 00:13:09,715 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: SYS
+2025-03-05 00:13:09,715 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: RCC
+2025-03-05 00:13:09,715 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: NVIC
+2025-03-05 00:13:09,720 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: GPIO
+2025-03-05 00:13:09,721 [INFO] CodeGenerator:690 - code generatio: config db path: C:\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.6.1.202207061420\\db\
+2025-03-05 00:13:10,408 [INFO] CodeEngine:245 - oldGeneratedFile, E:\00_Git\RTOS\FreeRTOS_STM32\FreeRTOS_Learn\MXTmpFiles\license.tmp_save
+2025-03-05 00:13:10,684 [INFO] CodeEngine:269 - Generated code: E:\00_Git\RTOS\FreeRTOS_STM32\FreeRTOS_Learn\MXTmpFiles\license.tmp
+2025-03-05 00:13:10,915 [INFO] CodeEngine:245 - oldGeneratedFile, E:\00_Git\RTOS\FreeRTOS_STM32\FreeRTOS_Learn\MXTmpFiles\gpio.tmp_save
+2025-03-05 00:13:11,266 [INFO] CodeEngine:269 - Generated code: E:\00_Git\RTOS\FreeRTOS_STM32\FreeRTOS_Learn\MXTmpFiles\gpio.tmp
+2025-03-05 00:13:11,450 [INFO] CodeEngine:245 - oldGeneratedFile, E:\00_Git\RTOS\FreeRTOS_STM32\FreeRTOS_Learn\Core\Src\stm32f4xx_it.c_save
+2025-03-05 00:13:11,898 [INFO] CodeEngine:269 - Generated code: E:\00_Git\RTOS\FreeRTOS_STM32\FreeRTOS_Learn\Core\Src\stm32f4xx_it.c
+2025-03-05 00:13:11,942 [INFO] CodeEngine:245 - oldGeneratedFile, E:\00_Git\RTOS\FreeRTOS_STM32\FreeRTOS_Learn\Core\Inc\stm32f4xx_it.h_save
+2025-03-05 00:13:12,263 [INFO] CodeEngine:269 - Generated code: E:\00_Git\RTOS\FreeRTOS_STM32\FreeRTOS_Learn\Core\Inc\stm32f4xx_it.h
+2025-03-05 00:13:12,318 [INFO] CodeEngine:245 - oldGeneratedFile, E:\00_Git\RTOS\FreeRTOS_STM32\FreeRTOS_Learn\Core\Src\stm32f4xx_hal_msp.c_save
+2025-03-05 00:13:12,692 [INFO] CodeEngine:269 - Generated code: E:\00_Git\RTOS\FreeRTOS_STM32\FreeRTOS_Learn\Core\Src\stm32f4xx_hal_msp.c
+2025-03-05 00:13:12,699 [INFO] CodeEngine:245 - oldGeneratedFile, E:\00_Git\RTOS\FreeRTOS_STM32\FreeRTOS_Learn\MXTmpFiles\system.tmp_save
+2025-03-05 00:13:12,876 [INFO] CodeEngine:269 - Generated code: E:\00_Git\RTOS\FreeRTOS_STM32\FreeRTOS_Learn\MXTmpFiles\system.tmp
+2025-03-05 00:13:12,922 [INFO] CodeEngine:245 - oldGeneratedFile, E:\00_Git\RTOS\FreeRTOS_STM32\FreeRTOS_Learn\Core\Inc\stm32f4xx_hal_conf.h_save
+2025-03-05 00:13:13,538 [INFO] CodeEngine:269 - Generated code: E:\00_Git\RTOS\FreeRTOS_STM32\FreeRTOS_Learn\Core\Inc\stm32f4xx_hal_conf.h
+2025-03-05 00:13:13,661 [INFO] CodeEngine:245 - oldGeneratedFile, E:\00_Git\RTOS\FreeRTOS_STM32\FreeRTOS_Learn\Core\Inc\main.h_save
+2025-03-05 00:13:13,944 [INFO] CodeEngine:269 - Generated code: E:\00_Git\RTOS\FreeRTOS_STM32\FreeRTOS_Learn\Core\Inc\main.h
+2025-03-05 00:13:13,982 [INFO] CodeEngine:245 - oldGeneratedFile, E:\00_Git\RTOS\FreeRTOS_STM32\FreeRTOS_Learn\Core\Src\main.c_save
+2025-03-05 00:13:14,344 [INFO] CodeEngine:269 - Generated code: E:\00_Git\RTOS\FreeRTOS_STM32\FreeRTOS_Learn\Core\Src\main.c
+2025-03-05 00:13:17,418 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 1464mS.
+2025-03-05 00:13:17,425 [INFO] ProjectBuilder:4117 - Project Generator version: 3.17.1
+2025-03-05 00:13:18,498 [INFO] ConfigFileManager:1394 - The Die is : DIE413
+2025-03-05 00:13:23,516 [INFO] ProjectBuilder:4285 - Time for Generating toolchain IDE Files: 6091mS.
+2025-03-05 00:13:23,518 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 1mS.
+2025-03-05 00:13:23,522 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2025-03-05 00:17:55,076 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 685930232 Bytes (1073741824)
+2025-03-05 00:17:57,181 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 705779072 Bytes (1073741824)
+2025-03-05 00:18:01,274 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 739761504 Bytes (1073741824)
+2025-03-05 00:18:02,276 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: SYS
+2025-03-05 00:18:02,276 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: RCC
+2025-03-05 00:18:02,277 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: NVIC
+2025-03-05 00:18:02,278 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: GPIO
+2025-03-05 00:18:02,279 [INFO] CodeGenerator:690 - code generatio: config db path: C:\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.6.1.202207061420\\db\
+2025-03-05 00:18:02,905 [INFO] CodeEngine:245 - oldGeneratedFile, E:\00_Git\RTOS\FreeRTOS_STM32\FreeRTOS_Learn\MXTmpFiles\license.tmp_save
+2025-03-05 00:18:03,282 [INFO] CodeEngine:269 - Generated code: E:\00_Git\RTOS\FreeRTOS_STM32\FreeRTOS_Learn\MXTmpFiles\license.tmp
+2025-03-05 00:18:03,533 [INFO] CodeEngine:245 - oldGeneratedFile, E:\00_Git\RTOS\FreeRTOS_STM32\FreeRTOS_Learn\MXTmpFiles\gpio.tmp_save
+2025-03-05 00:18:03,964 [INFO] CodeEngine:269 - Generated code: E:\00_Git\RTOS\FreeRTOS_STM32\FreeRTOS_Learn\MXTmpFiles\gpio.tmp
+2025-03-05 00:18:04,129 [INFO] CodeEngine:245 - oldGeneratedFile, E:\00_Git\RTOS\FreeRTOS_STM32\FreeRTOS_Learn\Core\Src\stm32f4xx_it.c_save
+2025-03-05 00:18:04,583 [INFO] CodeEngine:269 - Generated code: E:\00_Git\RTOS\FreeRTOS_STM32\FreeRTOS_Learn\Core\Src\stm32f4xx_it.c
+2025-03-05 00:18:04,598 [INFO] CodeEngine:245 - oldGeneratedFile, E:\00_Git\RTOS\FreeRTOS_STM32\FreeRTOS_Learn\Core\Inc\stm32f4xx_it.h_save
+2025-03-05 00:18:05,097 [INFO] CodeEngine:269 - Generated code: E:\00_Git\RTOS\FreeRTOS_STM32\FreeRTOS_Learn\Core\Inc\stm32f4xx_it.h
+2025-03-05 00:18:05,141 [INFO] CodeEngine:245 - oldGeneratedFile, E:\00_Git\RTOS\FreeRTOS_STM32\FreeRTOS_Learn\Core\Src\stm32f4xx_hal_msp.c_save
+2025-03-05 00:18:05,645 [INFO] CodeEngine:269 - Generated code: E:\00_Git\RTOS\FreeRTOS_STM32\FreeRTOS_Learn\Core\Src\stm32f4xx_hal_msp.c
+2025-03-05 00:18:05,653 [INFO] CodeEngine:245 - oldGeneratedFile, E:\00_Git\RTOS\FreeRTOS_STM32\FreeRTOS_Learn\MXTmpFiles\system.tmp_save
+2025-03-05 00:18:05,890 [INFO] CodeEngine:269 - Generated code: E:\00_Git\RTOS\FreeRTOS_STM32\FreeRTOS_Learn\MXTmpFiles\system.tmp
+2025-03-05 00:18:05,954 [INFO] CodeEngine:245 - oldGeneratedFile, E:\00_Git\RTOS\FreeRTOS_STM32\FreeRTOS_Learn\Core\Src\stm32f4xx_hal_timebase_tim.c_save
+2025-03-05 00:18:06,348 [INFO] CodeEngine:269 - Generated code: E:\00_Git\RTOS\FreeRTOS_STM32\FreeRTOS_Learn\Core\Src\stm32f4xx_hal_timebase_tim.c
+2025-03-05 00:18:06,389 [INFO] CodeEngine:245 - oldGeneratedFile, E:\00_Git\RTOS\FreeRTOS_STM32\FreeRTOS_Learn\Core\Inc\stm32f4xx_hal_conf.h_save
+2025-03-05 00:18:06,801 [INFO] CodeEngine:269 - Generated code: E:\00_Git\RTOS\FreeRTOS_STM32\FreeRTOS_Learn\Core\Inc\stm32f4xx_hal_conf.h
+2025-03-05 00:18:06,911 [INFO] CodeEngine:245 - oldGeneratedFile, E:\00_Git\RTOS\FreeRTOS_STM32\FreeRTOS_Learn\Core\Inc\main.h_save
+2025-03-05 00:18:07,355 [INFO] CodeEngine:269 - Generated code: E:\00_Git\RTOS\FreeRTOS_STM32\FreeRTOS_Learn\Core\Inc\main.h
+2025-03-05 00:18:07,391 [INFO] CodeEngine:245 - oldGeneratedFile, E:\00_Git\RTOS\FreeRTOS_STM32\FreeRTOS_Learn\Core\Src\main.c_save
+2025-03-05 00:18:07,853 [INFO] CodeEngine:269 - Generated code: E:\00_Git\RTOS\FreeRTOS_STM32\FreeRTOS_Learn\Core\Src\main.c
+2025-03-05 00:18:09,928 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 351mS.
+2025-03-05 00:18:09,935 [INFO] ProjectBuilder:4117 - Project Generator version: 3.17.1
+2025-03-05 00:18:11,210 [INFO] ConfigFileManager:1394 - The Die is : DIE413
+2025-03-05 00:18:15,355 [INFO] ProjectBuilder:4285 - Time for Generating toolchain IDE Files: 5420mS.
+2025-03-05 00:18:15,356 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2025-03-05 00:18:15,359 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
