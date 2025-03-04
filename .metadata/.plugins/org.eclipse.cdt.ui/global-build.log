@@ -1,0 +1,28 @@
+23:48:21 **** Build of configuration Debug for project FreeRTOS_Learn ****
+make -j4 all 
+arm-none-eabi-gcc "../ThirdParty/FreeRTOS_V202012_00/portable/MemMang/heap_1.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"ThirdParty/FreeRTOS_V202012_00/portable/MemMang/heap_1.d" -MT"ThirdParty/FreeRTOS_V202012_00/portable/MemMang/heap_1.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "ThirdParty/FreeRTOS_V202012_00/portable/MemMang/heap_1.o"
+arm-none-eabi-gcc "../ThirdParty/FreeRTOS_V202012_00/portable/MemMang/heap_2.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"ThirdParty/FreeRTOS_V202012_00/portable/MemMang/heap_2.d" -MT"ThirdParty/FreeRTOS_V202012_00/portable/MemMang/heap_2.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "ThirdParty/FreeRTOS_V202012_00/portable/MemMang/heap_2.o"
+arm-none-eabi-gcc "../ThirdParty/FreeRTOS_V202012_00/portable/MemMang/heap_3.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"ThirdParty/FreeRTOS_V202012_00/portable/MemMang/heap_3.d" -MT"ThirdParty/FreeRTOS_V202012_00/portable/MemMang/heap_3.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "ThirdParty/FreeRTOS_V202012_00/portable/MemMang/heap_3.o"
+arm-none-eabi-gcc "../ThirdParty/FreeRTOS_V202012_00/portable/MemMang/heap_4.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"ThirdParty/FreeRTOS_V202012_00/portable/MemMang/heap_4.d" -MT"ThirdParty/FreeRTOS_V202012_00/portable/MemMang/heap_4.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "ThirdParty/FreeRTOS_V202012_00/portable/MemMang/heap_4.o"
+../ThirdParty/FreeRTOS_V202012_00/portable/MemMang/heap_3.c:47:10: fatal error: FreeRTOS.h: No such file or directory
+   47 | #include "FreeRTOS.h"
+      |          ^~~~~~~~~~~~
+../ThirdParty/FreeRTOS_V202012_00/portable/MemMang/heap_4.c:42:10: fatal error: FreeRTOS.h: No such file or directory
+   42 | #include "FreeRTOS.h"
+      |          ^~~~~~~~~~~~
+compilation terminated.
+../ThirdParty/FreeRTOS_V202012_00/portable/MemMang/heap_1.c:42:10: fatal error: FreeRTOS.h: No such file or directory
+   42 | #include "FreeRTOS.h"
+      |          ^~~~~~~~~~~~
+compilation terminated.
+compilation terminated.
+make: *** [ThirdParty/FreeRTOS_V202012_00/portable/MemMang/subdir.mk:31: ThirdParty/FreeRTOS_V202012_00/portable/MemMang/heap_1.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [ThirdParty/FreeRTOS_V202012_00/portable/MemMang/subdir.mk:31: ThirdParty/FreeRTOS_V202012_00/portable/MemMang/heap_3.o] Error 1
+make: *** [ThirdParty/FreeRTOS_V202012_00/portable/MemMang/subdir.mk:31: ThirdParty/FreeRTOS_V202012_00/portable/MemMang/heap_4.o] Error 1
+../ThirdParty/FreeRTOS_V202012_00/portable/MemMang/heap_2.c:43:10: fatal error: FreeRTOS.h: No such file or directory
+   43 | #include "FreeRTOS.h"
+      |          ^~~~~~~~~~~~
+compilation terminated.
+make: *** [ThirdParty/FreeRTOS_V202012_00/portable/MemMang/subdir.mk:31: ThirdParty/FreeRTOS_V202012_00/portable/MemMang/heap_2.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
