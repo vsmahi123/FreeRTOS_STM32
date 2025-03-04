@@ -21,7 +21,9 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include"FreeRTOS.h"
+#include"task.h"
+#include<stdio.h>
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -48,6 +50,8 @@
 void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
 /* USER CODE BEGIN PFP */
+static void Task1_Handler(void* par);
+static void Task2_Handler(void* par);
 
 /* USER CODE END PFP */
 
@@ -63,7 +67,8 @@ static void MX_GPIO_Init(void);
 int main(void)
 {
   /* USER CODE BEGIN 1 */
-
+	TaskHandle_t Task1_hand,Task2_hand;
+	BaseType_t Task1_Status,Task2_Status;
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -85,7 +90,11 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   /* USER CODE BEGIN 2 */
-
+  Task1_Status = xTaskCreate(Task1_Handler, "Task_1", 200, "Venk_Task1", 2, &Task1_hand);
+  configASSERT(Task1_Status == pdPASS);
+  Task2_Status = xTaskCreate(Task2_Handler, "Task_2", 200, "Shubh_Task2", 2, &Task2_hand);
+  configASSERT(Task2_Status == pdPASS);
+  vTaskStartScheduler();
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -284,7 +293,20 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
-
+static void Task1_Handler(void* par)
+{
+	while(1)
+	{
+		printf("%s\n",(char*)par);
+	}
+}
+static void Task2_Handler(void* par)
+{
+	while(1)
+	{
+		printf("%s\n",(char*)par);
+	}
+}
 /* USER CODE END 4 */
 
 /**
