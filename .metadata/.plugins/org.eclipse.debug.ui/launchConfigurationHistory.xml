@@ -10,9 +10,7 @@
     </launchGroup>
     <launchGroup id="org.eclipse.ui.externaltools.launchGroup">
         <mruHistory/>
-        <favorites>
-            <launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;launchConfiguration local=&quot;false&quot; path=&quot;/FreeRTOS_Learn/ThirdParty/FreeRTOSv202012_00/FreeRTOSv202012.00/FreeRTOS/Demo/RX700_RX72N_EnvisionKit_IAR_e2studio_EWRX/SmartConfigurator.launch&quot;/&gt;&#13;&#10;"/>
-        </favorites>
+        <favorites/>
     </launchGroup>
     <launchGroup id="org.eclipse.debug.ui.launchGroup.run">
         <mruHistory/>
