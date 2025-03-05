@@ -1,4 +1,8 @@
 *.d
 *.o
+<<<<<<< HEAD
 *.su
 .metadata/
+=======
+*.su
+>>>>>>> SeggerSysView_Integration

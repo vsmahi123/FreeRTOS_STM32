@@ -1336,6 +1336,9 @@ typedef struct xSTATIC_STREAM_BUFFER
 /* Message buffers are built on stream buffers. */
 typedef StaticStreamBuffer_t StaticMessageBuffer_t;
 
+//venkatesh stub
+void vInitPrioGroupValue(void);
+
 /* *INDENT-OFF* */
 #ifdef __cplusplus
     }
