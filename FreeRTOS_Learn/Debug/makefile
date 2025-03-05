@@ -9,6 +9,10 @@ RM := rm -rf
 
 # All of the sources participating in the build are defined here
 -include sources.mk
+-include ThirdParty/SEGGER/SEGGER/Syscalls/subdir.mk
+-include ThirdParty/SEGGER/SEGGER/subdir.mk
+-include ThirdParty/SEGGER/OS/subdir.mk
+-include ThirdParty/SEGGER/Config/subdir.mk
 -include ThirdParty/FreeRTOS_V202012_00/portable/MemMang/subdir.mk
 -include ThirdParty/FreeRTOS_V202012_00/portable/GCC/ARM_CM4F/subdir.mk
 -include ThirdParty/FreeRTOS_V202012_00/subdir.mk

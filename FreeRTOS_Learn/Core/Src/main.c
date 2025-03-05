@@ -37,7 +37,7 @@
 
 /* Private macro -------------------------------------------------------------*/
 /* USER CODE BEGIN PM */
-
+#define DWT_CTRl (*(volatile uint32_t*)0xE0001000)
 /* USER CODE END PM */
 
 /* Private variables ---------------------------------------------------------*/
@@ -90,6 +90,9 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   /* USER CODE BEGIN 2 */
+  DWT_CTRl |= (1<<0); //for time keeping , to maintain time stamp information
+  SEGGER_SYSVIEW_Conf();
+  SEGGER_SYSVIEW_Start();
   Task1_Status = xTaskCreate(Task1_Handler, "Task_1", 200, "Venk_Task1", 2, &Task1_hand);
   configASSERT(Task1_Status == pdPASS);
   Task2_Status = xTaskCreate(Task2_Handler, "Task_2", 200, "Shubh_Task2", 2, &Task2_hand);

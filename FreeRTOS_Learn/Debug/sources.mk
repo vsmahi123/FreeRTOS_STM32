@@ -27,4 +27,8 @@ Drivers/STM32F4xx_HAL_Driver/Src \
 ThirdParty/FreeRTOS_V202012_00 \
 ThirdParty/FreeRTOS_V202012_00/portable/GCC/ARM_CM4F \
 ThirdParty/FreeRTOS_V202012_00/portable/MemMang \
+ThirdParty/SEGGER/Config \
+ThirdParty/SEGGER/OS \
+ThirdParty/SEGGER/SEGGER \
+ThirdParty/SEGGER/SEGGER/Syscalls \
 
